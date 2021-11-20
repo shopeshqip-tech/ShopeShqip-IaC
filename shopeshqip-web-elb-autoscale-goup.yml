@@ -8,7 +8,7 @@ Description: >-
   The instances are load balanced with a simple health check against the default
   web page. **WARNING** This template creates one or more Amazon EC2 instances
   and an Application Load Balancer. You will be billed for the AWS resources
-  used if you create a stack from this template.
+  used if you create a stack from this template. Original file location; https://github.com/awslabs/aws-cloudformation-templates/blob/master/aws/services/ElasticLoadBalancing/ELBGuidedAutoScalingRollingUpgrade.yaml
 Parameters:
   VpcId:
     Type: 'AWS::EC2::VPC::Id'
